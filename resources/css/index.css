@@ -478,8 +478,17 @@ header{
     font-size: 1rem;
 }
  
-.thesis_mobile {
-    display: none;
+/* section thesis mobile */
+@media screen and (max-width: 768px) {
+    .thesis_left {
+        width: 100%;
+    }
+    
+    .thesis_right,
+    .thesis_left h3,
+    .thesis_left p {
+        display: none;
+    }
 }
 
 /* footer */
